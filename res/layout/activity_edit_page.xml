@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_page" 
+    android:background="@drawable/bg5">
+
+    <ImageView
+        android:id="@+id/panah2"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginRight="260dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/panah" />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+    <Button
+       
+        android:id="@+id/btnsae"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/border2"
+        android:text="SAVE"
+        android:textColor="#fff" />
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp"
+       
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama :"
+                    android:textColor="#FFF"
+                    android:textSize="12pt" />
+
+                <EditText
+                    android:id="@+id/edinm"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#FFF"
+                    android:padding="5dp"
+                    android:hint="Masukan nama anda"
+                    android:textSize="12pt" 
+                    android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah aplikasi :"
+                    android:textColor="#FFF"
+                    android:textSize="12pt" />
+
+                <EditText
+                    android:id="@+id/jmlhk"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:hint="Masukan jumlah aplikasi"
+                    android:padding="5dp"
+                    android:textSize="12pt"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah followers :"
+                    android:textColor="#FFF"
+                    android:textSize="12pt" />
+
+                <EditText
+                    android:id="@+id/follw"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:hint="Masukan follower anda"
+                    android:textSize="12pt"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jumlah following :"
+                    android:textColor="#FFF"
+                    android:textSize="12pt" />
+
+                <EditText
+                    android:id="@+id/follong"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:padding="5dp"
+                    android:hint="Masukan following anda"
+                    android:textSize="12pt"
+                    android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keterangan :"
+                    android:textColor="#FFF"
+                    android:textSize="12pt" />
+
+                <EditText
+                    android:id="@+id/keter"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:background="#FFF"
+                    android:layout_marginTop="10dp"
+                    android:hint="Masukan keterangan anda"
+                    android:textSize="12pt"
+                    android:textAlignment="textStart"
+                    android:gravity="top" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>

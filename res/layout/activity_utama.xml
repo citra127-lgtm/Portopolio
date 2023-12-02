@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".Utama" >
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/lengkung"
+        android:layout_marginTop="160dp">
+      
+        
+    </LinearLayout>
+    
+    
+        
+         <ImageView
+        android:id="@+id/utamalogo"    
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sayajuga"
+           />
+        
+        
+  
+    
+        
+        <TextView 
+            android:id="@+id/tek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Dashboard"
+            android:textSize="20dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="10dp"
+            />
+        
+        
+         <TextView 
+            android:id="@+id/tic"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="27 Desember 2006"
+            android:layout_marginLeft="10dp"
+            android:textSize="15dp"
+            android:layout_below="@id/tek"
+            />
+         
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="200dp"
+             android:orientation="horizontal">
+             
+             <ImageView 
+                 android:layout_width="130dp"
+                 android:layout_height="130dp"
+                 android:layout_marginLeft="30dp"
+                 android:src="@drawable/icon1"/>
+             
+             <ImageView 
+                 android:layout_width="130dp"
+                 android:layout_height="125dp"
+                 android:layout_marginLeft="40dp"
+                 android:src="@drawable/icon2"
+                 />
+             
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="340dp"
+             android:orientation="horizontal">
+             
+             <ImageView 
+                 android:layout_width="125dp"
+                 android:layout_height="125dp"
+                 android:layout_marginLeft="30dp"
+                 android:src="@drawable/icon3"/>
+             
+             <ImageView 
+                 android:layout_width="125dp"
+                 android:layout_height="125dp"
+                 android:layout_marginLeft="48dp"
+                 android:src="@drawable/icon4"
+                 />
+             
+         </LinearLayout>
+         
+         <LinearLayout 
+             android:layout_width="fill_parent"
+             android:layout_height="190dp"
+             android:layout_marginTop="480dp"
+             android:orientation="horizontal">
+             
+             <ImageView 
+                 android:layout_width="125dp"
+                 android:layout_height="125dp"
+                 android:layout_marginLeft="30dp"
+                 android:src="@drawable/icon5"/>
+
+             <ImageView
+                 android:layout_width="125dp"
+                 android:layout_height="125dp"
+                 android:layout_marginLeft="45dp"
+                 android:src="@drawable/icon6" />
+             
+         </LinearLayout>
+         
+         
+         
+   
+</RelativeLayout>
